@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	margin:0 auto;
+	width:1200px;
+}
+a {
+   text-decoration: none;
+   padding: 5px;
+   color: #333;
+   display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* content 랩 */
+.wrap{
+	width:100%;
+	display:flex;
+}
+
+/* 홈페이지 기능 네비 */ 
+.top_gnb_area{
+	width: 100%;
+    height: 50px;
+    background-color: #a2a2ea;
+}
+
+@import
+   url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap')
+   ;
+
+@import
+   url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+/* 
+로고, 검색, 로그인
+.topDiv{
+	width: 100%;
+    height: 150px;
+    background-color: #f7f0b9;
+}
+로고 영역
+.logo_area{
+	width: 25%;
+	height: 100%;
+	background-color: red;
+	float:left;
+}
+검색 박스 영역
+.search_area{
+	width: 50%;
+	height: 100%;
+	background-color: yellow;
+	float:left;	
+}
+로그인 버튼 영역
+.login_area{
+	width: 25%;
+	height: 100%;
+	display: inline-block;	
+	text-align: center;		
+}
+.login_button{
+	height: 50%;
+    background-color: #D4DFE6;
+    margin-top: 30px;
+    line-height: 77px;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;	
+}
+.login_area>span{
+	margin-top: 10px;
+    font-weight: 900;
+    display: inline-block;
+}
+.login_button{
+	height : 50%;
+	background-color: #D4DFE6;
+	margin-top:30px;
+}
+
+제품 목록 네비
+.navi_bar_area{
+	width: 100%;
+    height: 70px;
+    background-color: #7696fd;
+}
+
+홈페이지 메인 제품 목록 
+.content_area{
+	width: 100%;
+    background-color: #97ef97;
+    height: 1000px;
+}
+ */
+/* float 속성 해제 */
+.clearfix{
+	clear: both;
+}
+
+
+
+/* nav */
+.left_section{
+	width:20%;
+}
+.right_section{
+	width:80%;
+}
+.right_section .subnav{
+	float:right;
+	font-size:12px;
+}
+.left_section h3{
+	 font-family: 'Sansita Swashed', cursive;
+   font-size: 50px;
+   margin-bottom: 20px;
+   color: #4263eb;
+	
+}
+.user{
+	 color: #4263eb;
+	 font-weight: bold;
+}
+.submenu a:hover{border-bottom:1px solid skyblue; color:red}
+.content{width:100%}
+
+/* login */
+.info{
+	margin-top: 100px;
+}
+.info_tit{
+	text-align: center;
+}
+.info_con{
+	display: flex;
+    justify-content: center;
+}
+.info_con > form {
+	width: 60%;
+	margin-top: 18px;
+}
+.info_con > form input{
+	height: 43px;
+    width: 100%;
+    margin: 5px 0px;
+    text-align:center;
+}
+.signRow{
+	display: flex;
+    justify-content: space-between;
+}
+.signRow input{
+	width:32%;
+}
+.signRow select {
+    width: 32%;
+    height: 43px;
+    margin: 5px 0;
+}
+.signRow.submit input{
+	width:49%;
+	padding:5px;
+	height: 43px;
+	background: #4263eb;
+	color:#fff;
+	border:none;
+}
+.orderRow.submit{
+	    display: flex;
+    justify-content: space-between;
+}
+.orderRow.submit button{
+	width:49%;
+	padding:5px;
+	height: 43px;
+	background: #4263eb;
+	color:#fff;
+	border:none;
+
+}
+/* goodsRetrieve */
+.orderAmount{
+	text-align: right;
+	height: 18px;
+	vertical-align:middle;
+}
+.orderbtn{
+	vertical-align:middle;
+}
+.orderBtn{
+	background: #eee;
+	border:none;
+	padding:5px;
+}
+.updateBtn{
+	background: #eee;
+	border:none;
+	padding:5px;
+}
+.delBtn{
+	background: #eee;
+	border:none;
+	padding:5px;
+}
+#orderBtn a{
+	background: #4263eb;
+	padding:10px;
+	color:#fff;
+}
+.confirmBtn{
+	background: #4263eb;
+	padding:10px;
+	color:#fff;
+}
