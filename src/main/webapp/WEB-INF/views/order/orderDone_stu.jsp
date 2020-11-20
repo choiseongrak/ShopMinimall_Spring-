@@ -152,10 +152,8 @@
 	</tr>
 
 	<tr>
-		<!-- <td class="td_default" align="center"><a class="a_default"
-			href="OrderListDetailServlet?mem_id=guest">주문조회 페이지로 이동</a></td> -->
 		<td class="td_default" align="center">
-			<a class="confirmBtn" href="loginCheck/cartList">주문조회 페이지로 이동</a>
+			<a class="confirmBtn" href="loginCheck/cartList">장바구니로 이동</a>
 		</td>
 	</tr>
 
